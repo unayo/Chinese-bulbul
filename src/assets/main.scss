@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自訂 base */
+
+@layer components {
+  .router-link-exact-active {
+    &.is-active-link {
+      @apply transition duration-100 ease-linear underline underline-offset-4 font-bold text-primary-dark decoration-2;
+    }
+  }
+  .menu {
+    @apply hover:text-primary-dark hover:font-bold;
+  }
+}
