@@ -1,4 +1,4 @@
-# Suntravel
+# Chinese-bulbul
 
 ## 環境變數
 
@@ -22,6 +22,10 @@ npm run dev
 ```sh
 npm run build
 ```
+```sh
+sh deploy.sh
+```
+
 
 ### Lint with [ESLint](https://eslint.org/)
 
